@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Sign up</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="main-container">
+ <div class="form-container">
+     <h2>Register form</h2>
+     <form action="">
+         <div class="form-group">
+             <label for="name">Name:</label>
+             <input type="text" id="name"name="name" required>
+         </div>
+<div class="form-group">
+     <label for="email">Email:</label>
+             <input type="email" id="email"name="email" required>
+</div>
+         <div class="form-group">
+             <label for="password">Password:</label>
+             <input type="password" id="password" name="password" required>
+</div>
+         <div class="form-group">
+             <label for="confirm password">Confirm password:</label>
+             <input type="password" id="confirm password" name="confirm-password" required>
+         </div>
+         <div class="form-group">
+             <label>Gender:</label>
+             <div class="radio-group">
+               <label><input type="radio" name="gender" value="male">Male</label>
+                 <label><input type="radio" name="gender" value="female">Female</label>
+                  <label><input type="radio" name="gender" value="other">Other</label>
+                 <label><input type="radio" name="gender" value="prefer not to say">Prefer not to say</label>
+             </div>
+         </div>
+         <div class="form-group">
+             <label for="county">County</label>
+             <select name="county" id="county">
+                 <option value=" " disabled selected>Select your County</option>
+                 <option value="Nairobi">Nairobi</option>
+                 <option value="Mombasa">Mombasa</option>
+                 <option value="Nakuru">Nakuru</option>
+                 <option value="Kisumu">Kisumu</option>
+                 <option value="Turkana">Turkana</option>
+             </select>
+         </div>
+         <div class="form-group">
+          <button type="submit">Register</button>
+         </div>
+     </form>
+ </div>
+    <div class="table-container">
+        <h2>Table With Users Registered</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>County</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Jasmin Rae</td>
+                <td>Jasmin@gmail.com</td>
+                <td>Female</td>
+                <td>Nakuru</td>
+            </tr>
+            <tr>
+             <td>Victoria Namoru</td>
+                <td>namoru@gmail.com</td>
+                <td>Female</td>
+                <td>Turkana</td>
+            </tr>
+            <tr>
+                <td>Pedo Lila</td>
+                <td>lilpedo@gmail.com</td>
+                <td>Male</td>
+                <td>Kisumu</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
